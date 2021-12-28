@@ -1,4 +1,4 @@
-# Wattpad  Scraping
+# Wattpad Scraping
 
 scraping Wattpad with python BeautifulSoup 
 
