@@ -25,7 +25,7 @@ data =[]
 for index,row in enumerate(title): 
 
     # get image
-    img = soup.find_all('a', class_='cover')[0]
+    img = soup.find_all('a', class_='cover')[index]
     img2 = []
     for i in img: 
         img2.append(i.find('img').get('src'))
